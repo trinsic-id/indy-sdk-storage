@@ -16,7 +16,7 @@ PM> Install-Package Streetcred.Indy.Sdk.Storage -Source https://www.myget.org/F/
 Using dotnet cli
 
 ```bash
-> dotnet add package Streetcred.Indy.Sdk.Storage --version 1.6.8 --source https://www.myget.org/F/agent-framework/api/v3/index.json 
+> dotnet add package Streetcred.Indy.Sdk.Storage --source https://www.myget.org/F/agent-framework/api/v3/index.json 
 ```
 
 You can also add custom `nuget.config` in your solution folder. See [example here](nuget.config).
