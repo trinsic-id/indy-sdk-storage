@@ -8,7 +8,6 @@ namespace Streetcred.Indy.Sdk
     /// </summary>
     public interface IWalletStorage
     {
-
         /// <summary>
         /// Create the wallet storage (For example, database creation)
         /// </summary>
@@ -18,7 +17,6 @@ namespace Streetcred.Indy.Sdk
         /// <param name="metadata">wallet metadata (For example encrypted keys).</param>
         /// <returns></returns>
         Task CreateAsync(string name, string config, string credentialsJson, string metadata);
-
 
         /// <summary>
         /// Open the wallet storage (For example, opening database connection)
