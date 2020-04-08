@@ -22,6 +22,13 @@ steps:
     version: '3.1.100'
 - task: NuGetToolInstaller@1
 
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '$(solution)'
+    arguments: '/p:Configuration=$(buildConfiguration)'
+
 - task: DotNetCoreCLI@2
   inputs:
     command: 'custom'
