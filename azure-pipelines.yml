@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
 variables:
   solution: '**/*.sln'
@@ -22,14 +22,10 @@ steps:
     version: '3.1.100'
 - task: NuGetToolInstaller@1
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
-
 - task: DotNetCoreCLI@2
   inputs:
     command: 'custom'
-    projects: '**/*.csproj'
+    projects: '$(solution)'
     custom: 'pack'
     arguments: '/p:PackageVersion=$(majorMinorPackageVersion).$(Build.BuildId) /p:Configuration=$(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
 
