@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indy.Sdk.Storage", "Indy.Sdk.Storage\Indy.Sdk.Storage.csproj", "{59E79D15-054B-4A18-AEFB-A498531F21D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streetcred.Indy.Sdk.Storage", "Streetcred.Indy.Sdk.Storage\Streetcred.Indy.Sdk.Storage.csproj", "{D6CF9001-505E-4D84-B1BD-31B866B8CED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indy.Sdk.Storage.Tests", "Indy.Sdk.Storage.Tests\Indy.Sdk.Storage.Tests.csproj", "{866EBB21-C7C6-455C-BBC5-FB2264EA1F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streetcred.Indy.Sdk.Storage.Tests", "Streetcred.Indy.Sdk.Storage.Tests\Streetcred.Indy.Sdk.Storage.Tests.csproj", "{848179B0-2607-4C60-89F9-52454CA02C8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{59E79D15-054B-4A18-AEFB-A498531F21D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59E79D15-054B-4A18-AEFB-A498531F21D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59E79D15-054B-4A18-AEFB-A498531F21D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59E79D15-054B-4A18-AEFB-A498531F21D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{866EBB21-C7C6-455C-BBC5-FB2264EA1F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{866EBB21-C7C6-455C-BBC5-FB2264EA1F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{866EBB21-C7C6-455C-BBC5-FB2264EA1F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{866EBB21-C7C6-455C-BBC5-FB2264EA1F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CF9001-505E-4D84-B1BD-31B866B8CED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CF9001-505E-4D84-B1BD-31B866B8CED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CF9001-505E-4D84-B1BD-31B866B8CED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CF9001-505E-4D84-B1BD-31B866B8CED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848179B0-2607-4C60-89F9-52454CA02C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848179B0-2607-4C60-89F9-52454CA02C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848179B0-2607-4C60-89F9-52454CA02C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848179B0-2607-4C60-89F9-52454CA02C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Indy.Sdk.Storage\Indy.Sdk.Storage.csproj" />
+    <ProjectReference Include="..\Streetcred.Indy.Sdk.Storage\Streetcred.Indy.Sdk.Storage.csproj" />
   </ItemGroup>
 
 </Project>

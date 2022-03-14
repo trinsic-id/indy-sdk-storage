@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Authors>Tomislav Markovski</Authors>
+    <Company>Streetcred</Company>
+    <Product>Indy SDK Storage Interface</Product>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Streetcred.Indy.Sdk.Storage.xml</DocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hyperledger.Indy.Sdk" Version="1.6.8" />
+  </ItemGroup>
+
+</Project>
